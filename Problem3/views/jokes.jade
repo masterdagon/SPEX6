@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1= title
+    - var values = joke;
+    ul
+        each val in values.length ? values : []
+            li= val
+        a(href='/') Back to main

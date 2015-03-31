@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1= title
+    form(method='post', action='storeJoke')
+        input(name="joke" placeholder="Add joke")
+        input(type = 'submit')
+    p
+        a(href='/') Back to main

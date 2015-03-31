@@ -1,0 +1,14 @@
+{
+  "name": "question3",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.9.0",
+    "body-parser": "~1.8.1"
+  },
+  "devDependencies": {
+    "should": "^5.2.0"
+  }
+}

@@ -1,0 +1,8 @@
+extends layout
+block content
+    h1= title
+    h2 You can login with username "masterdagon" and password "fhtagn". Everything else should hopefully fail.
+    form(method='post')
+        input(name="userName" placeholder="Username")
+        input(name="password" placeholder="Password")
+        input(type = 'submit')
